@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AddressSelectorDemo.iml" filepath="$PROJECT_DIR$/AddressSelectorDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AddressSelector.iml" filepath="$PROJECT_DIR$/AddressSelector.iml" />
       <module fileurl="file://$PROJECT_DIR$/adressselectorlib/adressselectorlib.iml" filepath="$PROJECT_DIR$/adressselectorlib/adressselectorlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
