@@ -10,11 +10,10 @@
         android:layout_width="match_parent">
         <ImageView
             android:id="@+id/item_address_img"
-            android:paddingLeft="12.5dp"
-            android:src="@mipmap/icon"
+            android:layout_marginStart="5dp"
+            android:background="@mipmap/icon"
             android:layout_width="10dp"
-            android:visibility="invisible"
-            android:layout_height="20dp" />
+            android:layout_height="10dp" />
         <TextView
             android:id="@+id/item_address_tv"
             android:layout_height="wrap_content"
