@@ -8,4 +8,5 @@ package com.mic.adressselectorlib;
 
 public interface CityInterface {
     String getCityName();
+    String getCityCode();
 }

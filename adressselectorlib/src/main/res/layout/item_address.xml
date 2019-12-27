@@ -11,10 +11,10 @@
         <ImageView
             android:id="@+id/item_address_img"
             android:paddingLeft="12.5dp"
-            android:src="@mipmap/icon_address_arrow_selected"
-            android:layout_width="wrap_content"
+            android:src="@mipmap/icon"
+            android:layout_width="10dp"
             android:visibility="invisible"
-            android:layout_height="wrap_content" />
+            android:layout_height="20dp" />
         <TextView
             android:id="@+id/item_address_tv"
             android:layout_height="wrap_content"
