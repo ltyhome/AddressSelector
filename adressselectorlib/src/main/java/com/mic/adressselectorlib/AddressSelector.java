@@ -17,6 +17,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Author: Blincheng.
@@ -31,7 +32,7 @@ public class AddressSelector extends LinearLayout implements View.OnClickListene
     private ArrayList<Tab> tabs;
     //列表的适配器
     private AddressAdapter addressAdapter;
-    private ArrayList<CityInterface> cities;
+    private List<CityInterface> cities;
     private OnItemClickListener onItemClickListener;
     private OnTabSelectedListener onTabSelectedListener;
     private RecyclerView list;
@@ -142,7 +143,7 @@ public class AddressSelector extends LinearLayout implements View.OnClickListene
     /**
      * 设置列表的数据源，设置后立即生效
      * */
-    public void setCities(ArrayList cities) {
+    public void setCities(List cities) {
         if(cities == null||cities.size() <= 0)
             return;
         if(cities.get(0) instanceof CityInterface){
