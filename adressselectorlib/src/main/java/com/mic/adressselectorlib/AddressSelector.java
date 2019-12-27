@@ -25,8 +25,8 @@ import java.util.ArrayList;
  */
 
 public class AddressSelector extends LinearLayout implements View.OnClickListener{
-    private int TextSelectedColor = Color.parseColor("#11B57C");
-    private int TextEmptyColor = Color.parseColor("#333333");
+    private int TextSelectedColor = Color.parseColor("#375BF5");
+    private int TextEmptyColor = Color.parseColor("#666666");
     //顶部的tab集合
     private ArrayList<Tab> tabs;
     //列表的适配器
@@ -49,9 +49,9 @@ public class AddressSelector extends LinearLayout implements View.OnClickListene
     //列表文字大小
     private int listTextSize = -1;
     //列表文字颜色
-    private int listTextNormalColor = Color.parseColor("#333333");
+    private int listTextNormalColor = Color.parseColor("#666666");
     //列表文字选中的颜色
-    private int listTextSelectedColor = Color.parseColor("#11B57C");
+    private int listTextSelectedColor = Color.parseColor("#375BF5");
     //列表icon资源
     private int listItemIcon = -1;
     public AddressSelector(Context context) {
@@ -244,8 +244,8 @@ public class AddressSelector extends LinearLayout implements View.OnClickListene
      * */
     public class Tab extends TextView{
         private int index = 0;
-        private int TextSelectedColor = Color.parseColor("#11B57C");
-        private int TextEmptyColor = Color.parseColor("#333333");
+        private int TextSelectedColor = Color.parseColor("#375BF5");
+        private int TextEmptyColor = Color.parseColor("#666666");
         /**
          * 是否选中状态
          * */
@@ -310,7 +310,7 @@ public class AddressSelector extends LinearLayout implements View.OnClickListene
         private int oldIndex = 0;
         private int nowIndex = 0;
         private View indicator;
-        private int SelectedColor = Color.parseColor("#11B57C");
+        private int SelectedColor = Color.parseColor("#375BF5");
         public Line(Context context) {
             super(context);
             init(context);
